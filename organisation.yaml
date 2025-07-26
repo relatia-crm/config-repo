@@ -2,7 +2,7 @@ organisation:
     name: "John Doe Organisation"
     address:
         street: "123 Main St"
-        city: "Anytown"
+        city: "Capetown"
         state: "CA"
         zip: "12345"
     contact:
