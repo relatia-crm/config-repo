@@ -1,7 +1,7 @@
 organisation:
     name: "John Doe Organisation"
     address:
-        street: "jews street"
+        street: "new york street"
         city: "Capetown"
         state: "CA"
         zip: "689695"
