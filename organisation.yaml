@@ -1,10 +1,10 @@
 organisation:
     name: "John Doe Organisation"
     address:
-        street: "cape street"
-        city: "Capetown"
+        street: "234 street"
+        city: "london"
         state: "CA"
-        zip: "689695"
+        zip: "1234"
     contact:
         name: "John Doe"
         email: "johndoe@example.com"
