@@ -1,0 +1,4 @@
+spring:
+  config:
+    import:
+    - organisation.yaml  # or optional:classpath:organisation.yml
