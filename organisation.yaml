@@ -4,7 +4,7 @@ organisation:
         street: "123 Main St"
         city: "Capetown"
         state: "CA"
-        zip: "12345"
+        zip: "689695"
     contact:
         name: "John Doe"
         email: "johndoe@example.com"
