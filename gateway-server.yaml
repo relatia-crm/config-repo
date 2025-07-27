@@ -1,7 +1,5 @@
-spring:
-  config:
-    import:
-      - organisation.yaml  # or optional:classpath:organisation.yml
+server:
+    port: 8072
 
 management:
   endpoints:
@@ -10,21 +8,13 @@ management:
       exposure:
         include: "*"  # This exposes all endpoints
   endpoint:
-    health:
-      probes:
-        enabled: true
-    shutdown:
+    gateway:
       access: unrestricted
+    health:
+      show-details: always
   info:
     env:
       enabled: true
-  health:
-    readiness-state:
-      enabled: true
-    liveness-state:
-      enabled: true
-
-
 
 eureka:
   instance:
