@@ -1,8 +1,4 @@
 spring:
-  config:
-    import:
-      - organisation.yaml  # or optional:classpath:organisation.yml
-
   rabbitmq:
     host: localhost
     port: 5672

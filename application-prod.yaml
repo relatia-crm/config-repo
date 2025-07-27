@@ -1,7 +1,4 @@
 spring:
-  config:
-    import: classpath:organisation-prod.yaml  # or optional:classpath:organisation.yml
-
   rabbitmq:
     host: rabbit
     port: 5672
